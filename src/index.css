@@ -1,0 +1,29 @@
+@import 'normalize.css'; /* adaugă stilurile normalize.css */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: rgb(203, 193, 193);
+  animation: modal-gradient 10s infinite;
+}
+
+:where(.css-dev-only-do-not-override-1uweeqc).ant-btn-primary {
+  background-color: orange;
+}
+
+:where(.css-dev-only-do-not-override-1uweeqc).ant-btn-primary:not(
+    :disabled
+  ):not(.ant-btn-disabled):hover {
+  background-color: orange;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
