@@ -23,6 +23,11 @@ body {
   background-color: orange;
 }
 
+:where(.css-dev-only-do-not-override-1uweeqc).ant-btn-primary:not(
+    :disabled
+  ):not(.ant-btn-disabled):active {
+  background-color: orange;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
